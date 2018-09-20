@@ -2,7 +2,7 @@
 function showMembers(jsonObj) {
     var items = jsonObj['appMembers'];
 
-    for (var index = 0; index < items.length; i++) {
+    for (var index = 0; index < items.length; index++) {
 
         var target = document.getElementById("result");
         var contain = document.createElement('div');
