@@ -1,0 +1,50 @@
+body {
+    background-color:rosybrown;
+}
+div {
+    padding: 5px;
+    margin: 20px 5px 20px 5px;
+}
+p {
+    margin:0px;
+}
+.top, .middle, .bottom {
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.logo {
+    float: left;
+    min-width: 100px;
+}
+.settings, .logo {
+    height: 100px;
+    border: 2px solid black;
+}
+.result {
+    height: 120px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.pic1 {
+    background-image: url(man.png);
+}
+.pic2 {
+    background-image: url(woman.png);
+}
+.pic3 {
+    background-image: url(man2.jpg);
+}
+.pic1, .pic2, .pic3 {
+    float: left;
+    min-width: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.info, .pic1, .pic2, .pic3 {
+    height: 80px;
+    border: 2px solid black;
+}

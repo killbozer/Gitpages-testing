@@ -1,0 +1,38 @@
+{
+  "appMembers": [
+
+    {
+      "name": "Chen",
+      "bio": "My name is Chen and I am looking for some dedicated....",
+      "loc": "Flinders",
+      "age": "23",
+      "pic": "man.png"
+    },
+    {
+      "name": "Karen",
+      "bio": "Hi I am Karen and I would like to study....",
+      "loc": "Charles Darwin",
+      "age": "38",
+      "pic": "woman.png"
+    },
+    {
+      "name": "Mike",
+      "bio": "Hey I'm Mike and I want to find others....",
+      "loc": "Charles Darwin",
+      "age": "25",
+      "pic": "man2.png"
+    }
+
+
+
+
+
+
+  ]
+
+
+
+
+
+
+}
