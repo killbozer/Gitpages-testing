@@ -29,22 +29,22 @@ p {
     border: 4px solid black;
     border-radius: 10px;
 }
-.pic1 {
+.pic0 {
     background-image: url(man.png);
 }
-.pic2 {
+.pic1 {
     background-image: url(woman.png);
 }
-.pic3 {
+.pic2 {
     background-image: url(man2.jpg);
 }
-.pic1, .pic2, .pic3 {
+.pic0, .pic1, .pic2 {
     float: left;
     min-width: 80px;
     background-repeat: no-repeat;
     background-size: contain;
 }
-.info, .pic1, .pic2, .pic3 {
+.info, .pic0, .pic1, .pic2 {
     height: 80px;
     border: 2px solid black;
 }
