@@ -10,13 +10,13 @@ function showMembers(jsonObj) {
         var info = document.createElement('div');
         var text = document.createElement('p');
 
-        var picNo = pic[index]
+   
 
         text.textContent = 'Bio: ' + items[index].bio + "\r\n";
         text.textContent += 'Location: ' + items[index].loc;
 
         contain.classList.add("result");
-        pic.classList.add(picNo);
+        pic.classList.add(["pic[index]"],);
         info.classList.add("info");
 
         target.appendChild(contain);
