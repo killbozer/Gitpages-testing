@@ -16,7 +16,7 @@ function showMembers(jsonObj) {
         text.textContent += 'Location: ' + items[index].loc;
 
         contain.classList.add("result");
-        pic.classList.add(["pic[index]"],);
+        pic.classList.add("pic" + [index]);
         info.classList.add("info");
 
         target.appendChild(contain);
