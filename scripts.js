@@ -10,7 +10,7 @@ function showMembers(jsonObj) {
         var info = document.createElement('div');
         var text = document.createElement('p');
 
-        text.textContent = 'Bio: ' + items[i].bio + 'Location: ' + items[i].loc;
+        text.textContent = 'Bio: ' + items[index].bio + 'Location: ' + items[index].loc;
 
         target.appendChild(contain);
         contain.appendChild(pic);
