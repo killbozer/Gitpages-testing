@@ -1,5 +1,5 @@
 
-function showMembers(jsobObj) {
+function showMembers(jsonObj) {
     var items = jsonObj['appMembers'];
 
     for (var index = 0; index < items.length; i++) {
