@@ -48,3 +48,6 @@ p {
     height: 80px;
     border: 2px solid black;
 }
+.info p{
+    white-space: pre;
+}
