@@ -49,5 +49,5 @@ p {
     border: 2px solid black;
 }
 .info p{
-    white-space: pre;
+    white-space: pre-wrap;
 }
