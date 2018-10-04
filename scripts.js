@@ -30,12 +30,12 @@ function showMembers(jsonObj) {
 
 function filterOptions() {
 
-    var mid = document.getElementById("middle")
-    var locFil = document.createElement('a')
+    var mid = document.getElementById("middle");
+    var locFil = document.createElement('a');
 
-    locFil.textContent = 'Filter by: '
+    locFil.textContent = 'Filter by: ';
 
-    locFil.appendChild(mid)  
+    locFil.appendChild(mid);  
 
 
 }
