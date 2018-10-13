@@ -6,9 +6,9 @@ var CACHE_VERSION = 'v2';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
     '/',
-    '/styles.css',
-    '/scripts.js',
-    '/icons/logo.png',
+    'styles.css',
+    'scripts.js',
+    'icons/logo.png',
     'man.png',
     'man2.png',
     'woman.png'
