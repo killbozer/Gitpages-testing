@@ -38,7 +38,7 @@ function filter1() {
         }
 
         else {
-            removeElement(classes[index])
+            document.removeElement(classes[index])
 
         }
 
