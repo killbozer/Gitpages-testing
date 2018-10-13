@@ -5,13 +5,9 @@ var CACHE_TITLE = 'study-chache';
 var CACHE_VERSION = 'v2';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
-    '/index.html',
-    '/styles.css',
-    '/scripts.js',
-    '/icons/logo.png',
-    '/man.png',
-    '/man2.jpg',
-    '/woman.png'
+    'index.html',
+    'styles.css',
+    'scripts.js'
 ];
 
 self.addEventListener('install', function (event) {
