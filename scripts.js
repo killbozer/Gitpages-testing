@@ -33,7 +33,7 @@ function filter1() {
     var classes = document.getElementsByClassName('result');
     console.log(classes);
     for (var index = 0; index < classes.length; index++) {
-        if (classes.innerText.includes("Charles Darwin")) {
+        if (classes.includes("Charles Darwin")) {
             console.log("its fine" + index);
         }
 
