@@ -1,0 +1,13 @@
+{
+  "name": "Study Group Finder",
+  "short_name": "Study Finder",
+  "icon": [
+    {
+      "src": "icons/logo_icon.png",
+      "size": "128x128",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
