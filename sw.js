@@ -2,7 +2,7 @@
 // https://cdu-hit238.github.io/slides/week6/#/3/7
 
 var CACHE_TITLE = 'study-chache';
-var CACHE_VERSION = 'v1';
+var CACHE_VERSION = 'v2';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
     '/',
