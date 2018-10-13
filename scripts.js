@@ -38,7 +38,7 @@ function filter1() {
         }
 
         else {
-            classes[index].parentNode.removeChild('div')
+            classes[index].parentNode.removeChild(classes[index])
 
         }
 
