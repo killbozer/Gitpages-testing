@@ -1,7 +1,7 @@
 {
   "name": "Study Group Finder",
   "short_name": "Study Finder",
-  "icon": [
+  "icons": [
     {
       "src": "icons/logo_192.png",
       "size": "192x192",
