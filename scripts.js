@@ -28,24 +28,17 @@ function showMembers(jsonObj) {
 }
 
 
-function filterOptions() {
 
-    var mid = document.getElementById("filter");
-    var contain = document.createElement('div');
-    var locFil = document.createElement('p');
+selector = document.getElementById("options").childNodes;
 
-    locFil.textContent = 'Filter by: '
+for (index = 0; index < selector.length; index++) {
+    selector[index].addEventListener("click", function(event) {
+        if (selector.textContent == "Flinders") {
 
-    contain.appendChild(mid);
-    locFil.appendChild(contain);  
-
-
+        console.log("Flinders Selected")
+        }
+    })
 }
-
-
-
-
-
 
 var requestURL = "db.json";
 var request = new XMLHttpRequest();
