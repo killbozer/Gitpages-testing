@@ -37,7 +37,7 @@ function filter1() {
         else {
             classes[index].parentNode.removeChild(classes[index])
         }
-        console.log("looped " + index)
+    console.log("looped " + index)
     }
 }
 
