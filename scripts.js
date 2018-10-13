@@ -4,7 +4,7 @@ function showMembers(jsonObj) {
 
     for (var index = 0; index < items.length; index++) {
 
-        var target = document.getElementById("result");
+        var target = document.getElementById('result');
         var contain = document.createElement('div');
         var pic = document.createElement('div');
         var info = document.createElement('div');
@@ -16,6 +16,7 @@ function showMembers(jsonObj) {
         text.textContent += 'Location: ' + items[index].loc;
 
         contain.classList.add("result");
+        contain.id = "result";
         pic.classList.add("pic" + [index]);
         info.classList.add("info");
 
@@ -27,18 +28,24 @@ function showMembers(jsonObj) {
 
 }
 
+function filter1() {
 
+    var classes = document.getElementsByClassName('result');
+    console.log(classes);
 
-selector = document.getElementById("options").childNodes;
-
-for (index = 0; index < selector.length; index++) {
-    selector[index].addEventListener("click", function(event) {
-        if (selector.textContent == "Flinders") {
-
-        console.log("Flinders Selected")
-        }
-    })
 }
+
+function filter2() {
+
+    var classes = document.getElementsByClassName('result');
+    console.log(classes);
+
+}
+
+var loc1 = document.getElementById('o1');
+var loc2 = document.getElementById('o2');
+loc1.addEventListener("click", filter1, false);
+loc2.addEventListener("click", filter2, false);
 
 var requestURL = "db.json";
 var request = new XMLHttpRequest();
