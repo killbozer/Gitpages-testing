@@ -3,11 +3,23 @@
   "short_name": "Study Finder",
   "icon": [
     {
-      "src": "icons/logo_icon.png",
+      "src": "icons/logo_192.png",
+      "size": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/logo_128.png",
       "size": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/logo_512.png",
+      "size": "512x512",
       "type": "image/png"
     }
   ],
   "start_url": "index.html",
-  "display": "standalone"
+  "display": "standalone",
+  "background_color": "#FFF",
+  "theme_color": "#c3834c"
 }
