@@ -31,27 +31,25 @@ function showMembers(jsonObj) {
 function filter1() {
 
     var classes = document.getElementsByClassName('result');
-    console.log(classes);
     for (var index = 0; index < classes.length; index++) {
         if (classes[index].innerHTML.includes("Charles Darwin")) {
-            console.log("its fine" + index);
         }
-
         else {
             classes[index].parentNode.removeChild(classes[index])
-
         }
-
     }
-    
-
 }
 
 function filter2() {
 
     var classes = document.getElementsByClassName('result');
-    console.log(classes);
-
+    for (var index = 0; index < classes.length; index++) {
+        if (classes[index].innerHTML.includes("Flinders")) {
+        }
+        else {
+            classes[index].parentNode.removeChild(classes[index])
+        }
+    }
 }
 
 var loc1 = document.getElementById('o1');
