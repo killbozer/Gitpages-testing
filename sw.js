@@ -10,7 +10,7 @@ var urlsToCache = [
     'scripts.js',
     'icons/logo.png',
     'man.png',
-    'man2.png',
+    'man2.jpg',
     'woman.png'
 ];
 
