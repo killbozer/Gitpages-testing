@@ -36,8 +36,8 @@ function filter1() {
         }
         else {
             classes[index].parentNode.removeChild(classes[index])
+            index -= 1
         }
-    console.log("looped " + index)
     }
 }
 
@@ -49,8 +49,8 @@ function filter2() {
         }
         else {
             classes[index].parentNode.removeChild(classes[index])
+            index -= 1
         }
-    console.log("looped " + index)
     }
 }
 
